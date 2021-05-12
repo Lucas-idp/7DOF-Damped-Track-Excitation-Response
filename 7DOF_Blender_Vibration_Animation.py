@@ -6,7 +6,7 @@ import math
 from mathutils import Euler
 
 #### Importing CSV files and saving to response vectors, one for each degree of freedom
-fpath = 'C:/7GDL_RespostaAMORTECIDAteste5.csv'
+fpath = 'C:/7GDL_ExcitBase2.csv'
 csvFile = csv.reader(open(fpath))
 data = [row for row in csvFile][0:]
 data_7gdl = []
